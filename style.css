@@ -91,3 +91,41 @@ header img {
     height: 150px;
     float: right;
 }
+
+/* Items */
+
+.items {
+    margin: 165px 0 0 0;
+    padding: 10px 0 10px 0;
+}
+
+/* items-list */
+
+.items-list a {
+    text-decoration: none;
+    border: 5px solid #f08c2b;
+    border-radius: 10px;
+
+    width: 320px;
+    height: 320px;
+}
+
+.items-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.items-list h2 {
+    color: #7f3e1a;
+    background-color: #f08c2b;
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+
+.items-list i {
+    float: right;
+    padding-top: 6px;
+}
+
