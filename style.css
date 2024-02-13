@@ -129,3 +129,55 @@ header img {
     padding-top: 6px;
 }
 
+/*=== item-info-box ===*/
+
+.item-info-box {
+    margin: 165px 0 0 0;
+    padding: 10px 0 10px 0;
+}
+
+/* item-info-box-details */
+
+.item-info-box-details img {
+    width: 100%;
+}
+
+.item-info-box-details h2 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.price-serving p {
+    font-size: 13px;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+
+/* description-sides */
+
+.description-sides {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description {
+    width: 50%;
+}
+
+.sides ul {
+    width: 50%;
+    display: inline;
+    list-style-type: none;
+}
+
+.notes {
+    padding: 10px 10px 0 10px;
+}
+
+.notes textarea {
+    width: 100%;
+}
