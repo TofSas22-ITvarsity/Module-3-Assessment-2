@@ -248,7 +248,7 @@ header img {
 
 @media (max-width: 500px) {
     header{
-        height: 100px;
+        height: 75px;
     }
 
     header i {
@@ -261,12 +261,12 @@ header img {
     }
     
     header img {
-        width: 90px;
-        height: 90px;
+        width: 70px;
+        height: 70px;
     }
 
     .item-info-box {
-        margin-top: 100px;
+        margin-top: 75px;
     }
 
     .description {
@@ -274,10 +274,18 @@ header img {
     }
 
     .items {
-        margin-top: 100px;
+        margin-top: 75px;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
+    }
+
+    .thank-you img {
+        width: 240px;
+        height: 240px;
+    
+        display: block;
+        margin: auto;
     }
 }
 
@@ -314,6 +322,14 @@ header img {
         margin-right: auto;
         width: 80%;
     }
+
+    .thank-you img {
+        width: 180px;
+        height: 180px;
+    
+        display: block;
+        margin: auto;
+    }
 }
 
 @media (max-width: 300px) {
@@ -349,5 +365,13 @@ header img {
         margin-left: auto;
         margin-right: auto;
         width: 80%;
+    }
+
+    .thank-you img {
+        width: 100px;
+        height: 100px;
+    
+        display: block;
+        margin: auto;
     }
 }
